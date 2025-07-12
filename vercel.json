@@ -10,5 +10,15 @@
       "src": "/(.*)",
       "dest": "backend/open_webui/main.py"
     }
-  ]
+  ],
+  "engines": {
+    "python": "3.11",
+    "node": "20"
+  },
+  "functions": {
+    "backend/open_webui/main.py": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  }
 }
