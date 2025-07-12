@@ -10,13 +10,5 @@
       "src": "/(.*)",
       "dest": "backend/open_webui/main.py"
     }
-  ],
-  "functions": {
-    "backend/open_webui/main.py": {
-      "maxDuration": 60
-    }
-  },
-  "engines": {
-  "python": "3.11"
-}
+  ]
 }
